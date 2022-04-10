@@ -447,18 +447,18 @@ Berikut Fungsi mencari hitung Z-Score Nya dan plot data generate randomnya dalam
   
    ### 6.b
  - Generate Histogram dari Distribusi Normal dengan breaks 50
+ 
  Berikut Fungsi membuat histogram Distribusi Normal dengan breaks 50 dengan menggunakan hist().
  
-    ``R
+ 
+    ```R
     n = 100
     mean = 50
     sd = 8
-    
     set.seed(1)
     data <- rnorm(n, mean, sd)
     data
     summary(data)
-    
     breaks = 50
     hist(data, breaks, main = "5025201219_Antonio Taifan Montana_E_DNhistogram")
     ```
