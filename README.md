@@ -42,12 +42,54 @@ Repository untuk pengerjaan Praktikum 1 mata kuliah Probabilitas dan Statistik 2
         <li><a href="#2c">2.c</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li>
+      <a href="#soal-3">Soal 3</a>
+      <ul>
+        <li><a href="#3a">3.a</a></li>
+      </ul>
+      <ul>
+        <li><a href="#3b">3.b</a></li>
+      </ul>
+      <ul>
+        <li><a href="#3c">3.c</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#soal-4">Soal 4</a>
+            <ul>
+        <li><a href="#4a">4.a</a></li>
+      </ul>
+      <ul>
+        <li><a href="#4b">4.b</a></li>
+      </ul>
+      <ul>
+        <li><a href="#4c">4.c</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#soal-5">Soal 5</a>
+            <ul>
+        <li><a href="#5a">5.a</a></li>
+      </ul>
+      <ul>
+        <li><a href="#5b">5.b</a></li>
+      </ul>
+      <ul>
+        <li><a href="#5c">5.c</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#soal-6">Soal 6</a>
+          <ul>
+        <li><a href="#6a">6.a</a></li>
+      </ul>
+      <ul>
+        <li><a href="#6b">6.b</a></li>
+      </ul>
+      <ul>
+        <li><a href="#6c">6.c</a></li>
+      </ul>
+    </li>
   </ol>
 </details>
 
