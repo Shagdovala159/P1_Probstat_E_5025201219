@@ -416,7 +416,7 @@ data generate randomnya dalam bentuk grafik.
 
 Berikut Fungsi mencari hitung Z-Score Nya dan plot data generate randomnya dalam bentuk grafik dengan menggunakan pnorm() dan plot().
  
-     ```R
+    ```R
     n = 100
     mean = 50
     sd = 8
@@ -439,6 +439,7 @@ Berikut Fungsi mencari hitung Z-Score Nya dan plot data generate randomnya dalam
     probability <- probability2 - probability1
     plot(data)
     ```
+    
    Screenshot 
   ![ss1][ss6a]
  
