@@ -410,8 +410,80 @@ setahun  dengan menggunakan geom_histogram().
   
   ## Soal 6
 > Diketahui generate random nilai sebanyak 100 data, mean = 50, sd = 8. Tentukan
+   ### 6.a
+ - Fungsi Probabilitas dari Distribusi Normal P(X1 ≤ x ≤ X2), hitung Z-Score Nya dan plot
+data generate randomnya dalam bentuk grafik.
+
+Berikut Fungsi mencari hitung Z-Score Nya dan plot data generate randomnya dalam bentuk grafik dengan menggunakan pnorm() dan plot().
+ 
+     ```R
+    n = 100
+    mean = 50
+    sd = 8
+
+    set.seed(1)
+    data <- rnorm(n, mean, sd)
+    data
+    summary(data)
+
+    x1 = runif(1, min = min(data), max = mean)
+    x2 = runif(1, min = mean, max = max(data))
+    x1
+    x2
+
+    probability1 <- pnorm(x1, mean, sd)
+    probability2 <- pnorm(x2, mean, sd)
+    probability1
+    probability2
+    
+    probability <- probability2 - probability1
+    plot(data)
+    ```
+   Screenshot 
+  ![ss1][ss6a]
+ 
+  <p align="right">(<a href="#top">back to top</a>)</p>
   
-   
+   ### 6.b
+ - Generate Histogram dari Distribusi Normal dengan breaks 50
+ Berikut Fungsi membuat histogram Distribusi Normal dengan breaks 50 dengan menggunakan hist().
+ 
+    ``R
+    n = 100
+    mean = 50
+    sd = 8
+    
+    set.seed(1)
+    data <- rnorm(n, mean, sd)
+    data
+    summary(data)
+    
+    breaks = 50
+    hist(data, breaks, main = "5025201219_Antonio Taifan Montana_E_DNhistogram")
+    ```
+    
+  Screenshot 
+  ![ss1][ss6b]
+  <p align="right">(<a href="#top">back to top</a>)</p>
+  
+   ### 6.c
+ - Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
+ 
+    ```R
+    n = 100
+    mean = 50
+    sd = 8
+
+    set.seed(1)
+    data <- rnorm(n, mean, sd)
+    data
+    summary(data)
+
+    varian = (sd(data)) ^ 2
+    varian
+    ```
+    Screenshot 
+  ![ss1][ss6c]
    
    
    
