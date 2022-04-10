@@ -290,7 +290,8 @@ setahun  dengan menggunakan geom_histogram().
   
    ### 3.c
  - Bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
- 
+Secara teori telah didapatkan nilai sekitar 13% pada no 3.A sedangkan pada 3.B yang merupakan simulasi untuk melakukan pengerjaan hal tersebut juga menunjukkan nilai yang mirip yaitu sekitar 11an%. Hal ini dapat terjadi karena nilai dari A berada di dalam range B. Oleh karena itu, dalam estimasi selama 365 hari akan memberikan nilai hasil yang hampir sama dengan estimasi jumlah bayi yang akan dilahirkan di waktu selanjutnya (esok hari).
+
   <p align="right">(<a href="#top">back to top</a>)</p>
   
    ### 3.d
